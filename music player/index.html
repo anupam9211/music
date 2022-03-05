@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- font awesome -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="index.css"><link rel="icon" type="image" href="pic7.jpg">
+	<title>Play Music </title>
+</head>
+<body>
+
+	<section>
+<header>
+ <!-- current playing track -->
+ <img src="godsplan.jpg" alt="current playing track">
+ <h3>Track title</h3>
+ <p>Track desc</p>
+
+</header>
+
+<!-- playlist label -->
+
+<label>Playlist</label>
+ 
+
+ <!-- Track list  -->
+<ul>
+<li><span class="track-number">
+<i class="fa fa-music" aria-hidden="true"></i></span>
+    <img class="track-img" src="pic4.jfif" alt="track image">
+    <div class="track-detail">
+    	<p class="track-detail_name">Track Name</p>
+    	<p class="track-detail_desc"><small>Track description</small></p>
+    </div>
+</li>
+</ul>
+
+<!-- music control -->
+<footer>
+<!-- slider --> 
+<div class="slider">
+   <div class="slider-progress">
+     <div class="slider-pin">
+     </div>
+    </div> 
+</div>
+
+<!-- count -->
+
+<div class="count">
+<span class="count-current">00:01</span> 
+<span class="count-final">11:23</span> 
+</div> 
+
+<!-- events -->
+<div class="event">
+	<i class="fas fa-caret-left event-prev"></i>
+	<i class="fas fa-play event-playPause"></i>
+	<i class="fas fa-caret-right event-next"></i>
+	<i class="fas fa-volume-up event-muteUnmute"></i>
+</div>
+</footer>
+</section>
+
+
+
+<!-- audio -->
+<audio src="" id="audio"> </audio>
+
+
+<script src="index.js"></script>
+</body>
+</html>
